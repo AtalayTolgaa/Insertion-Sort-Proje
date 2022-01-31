@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+      1- [22,27,16,2,18,6] -> Insertion Sort // Yukarı verilen dizinin sort
+      türüne göre aşamalarını yazınız.
+    </h1>
+    <b> Big - O gösterimini yazınız.</b>
+    Time Complexity: Average case: Aradığımız sayının ortada olması Worst case:
+    Aradığımız sayının sonda olması Best case: Aradığımız sayının dizinin en
+    başında olması Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer
+    ? Yazınız. [7, 3, 5, 8, 2, 9, 4, 15, 6] dizisinin Insertion Sort'a göre ilk
+    4 adımını yazınız. " 1 Sort Türüne göre sıralama aşamaları." [22, 27, 16, 2,
+    18, 6] -> Insertion Sort [22, 27, 16, 2, 18, 6] İlk aşamamız sabit olup en
+    küçük rakamın bulunması. En Küçük Rakamımız "2", "2" ile '22' yer değiştirir
+    ve diğer aşamalar da aynı şekilde devam eder. [{2}, 27, 16,22, 18, 6] 2.
+    aşamamız "2" hariç diğer küçük sayının bulunması ve bu da '6' [{2}, {6}, 16,
+    22, 18, 27] Aşamalar diğerlerine benzer şekilde devam ediyor. [{2}, {6},
+    {16}, {18}, 22, 27]
+
+    <h1>2- Big-O gösterimini yazınız.</h1>
+
+    O(n2)
+
+    <h1>
+      3- Time Complexity: Average case: Aradığımız sayının ortada olması,Worst
+      case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının
+      dizinin en başında olması.
+    </h1>
+
+    Average case: O(n²) Worst case: O(n²) Best case: O(n) [22, 27, 16, 2, 18, 6]
+    Dizi sıralı hale geldikten sonra 18 sayısı hangi case kapsamına girdiğini
+    inceleme 18 sayısı orta sayı olduğu için
+    <font color="#FF0000">Average case</font>
+
+    kapsamına girer. [7, 3, 5,8, 2, 9, 4, 15, 6] dizisinin Insertion Sort'a göre
+    ilk 4 adımını yazınız. 1.Aşama [2, 3, 5, 8, 7, 9, 4, 15, 6] <br />
+
+    2.Aşama [2, 3, 4, 8, 7, 9, 5, 15, 6] <br />
+
+    3.Aşama [2, 3, 4, 5, 7, 9, 8, 15, 6] <br />
+
+    4.Aşama [2, 3, 4, 5, 6, 9, 8, 15, 7] <br />
+  </body>
+</html>
